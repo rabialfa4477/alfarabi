@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background: #20232E;
+}
+.navigasi{
+    padding: 40px;
+    font-size: 20px;
+    color: white;
+}
+.navigasi nav{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 80px;
+}
+.menu li{
+    justify-content: space-between;
+    list-style: none;
+}
+.menu li a{
+    position: relative;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+  .menu li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: transparent;
+    transition: width 0.3s, background-color 0.3s;
+  }
+
+  .menu li a:hover::after {
+    width: 100%;
+    background-color: #FF9A23;
+  }
+
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+.social-media i{
+    justify-content: space-between;
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.social-media i:hover{
+    transition: 0.1s;
+    transform: scale(1.2);
+}
+.profile{
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-utama{
+    width: 35%;
+    font-size: 30px;
+}
+.profile-utama h2{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.profile-utama p{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.h1-profile-deskripsi{
+    font-size: 35px;
+    font-weight: 400;
+}
+.profile-utama button{
+    width: 230px;
+    height: 50px;
+    background: #FF9A23;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.profile-utama button:hover{
+    transition: 0.5;
+    transform: scale(1.1);
+}
+.profile-utama .profile-hireme-btn{
+    background: none;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+.profile-utama .profile-hireme-btn:hover{
+    background: #FF9A23;
+    transform: scale(1);
+    border: none;
+    transition: 0.1s;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    background: url(Gambar/Alfarabi.png);
+    margin-top: 30px;
+}
+  
+.border-profile {
+    width: 450px;
+    background: #FF9A23;
+    background-size: cover;
+    height: 750px;
+    border-radius: 300px;
+    overflow: hidden;
+    position: relative;
+}
+  
+.profile-akhir{
+    width: 35%;
+    text-align: right;
+    font-size: 35px;
+}
+.profile-akhir h2{
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.profile-akhir h1{
+    margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+    .navigasi{
+        
+    }
+    .logo-nav{
+        display: flex;
+    }
+    .menu{
+        display: none;
+    }
+    .social-media{
+        display: none;
+    }
+    .profile{
+        display: grid; 
+        width: 100%;
+        padding: 0;
+        margin: 20px;
+    }
+   .border-profile{
+    width: 500px;
+   }
+   .profile-utama{
+    order: 2;
+    width: 100%;
+    font-size: 25px;
+   }
+   .profile-tengah{
+    order: 1;
+    
+   }
+   .profile-akhir{
+    order: 3;
+    font-size: 25px;
+    width: 100%;
+    text-align: left;
+   }
+
+  }
+  
+  
+  
+
+
+
+
+
+
