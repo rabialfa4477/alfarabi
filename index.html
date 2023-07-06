@@ -2,9 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
     <title>Alfarabi</title>
 </head>
 <body>
@@ -59,7 +62,121 @@
         </div>
     </div>
 
-
+    <div class="software-info">
+        <div class="software-info-border">
+            <div class="software-border">
+                <img class="sof-fix" src="Gambar/photoshop.svg" alt="">
+                <p class="sof-fix-p">Photoshop</p>
+                <h2>90%</h2>
+            </div>
+            <div class="software-border">
+                <img class="sof-fix" src="Gambar/premier.svg" alt="">
+                <p class="sof-fix-p">Premier Pro</p>
+                <h2>90%</h2>
+            </div>
+            <div class="software-border">
+                <img src="Gambar/website.svg" alt="">
+                <p>Wesbite</p>
+                <h2>90%</h2>
+            </div>
+            <div class="software-border">
+                <img src="Gambar/camera.svg" alt="">
+                <p>Photography</p>
+                <h2>90%</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="project-terbaru">
+        <div class="navigasi-new-project">
+            <h2>Project Terbaruku</h2>
+            <a href="">Lihat Semua</a>
+        </div>
+        <div class="project-project">
+            <div class="project">
+                <div class="project-deskripsi">
+                    <span>Design</span>
+                    <h1>Produk Design</h1>
+                    <p>Design produk NFC Ntag215 untuk online store dengan menggunakan photoshop</p>
+                        <div class="project-day">
+                            <div class="project-day-circle">
+                            </div>
+                            <p>02-07-2023</p>
+                        </div>
+                        <button>Profile</button>
+                        <a href="https://wa.me/+6288213010768"><button class="project-hireme-button">Hire Me</button></a>
+                </div>
+                <div class="gambar-pj">
+                    <img src="Gambar/ntag.png" alt="">
+                </div>
+            </div>
+            <div class="project">
+                <div class="gambar-pj1">
+                    <img src="Gambar/produk1.png" alt="">
+                </div>
+                <div class="project-deskripsi1">
+                    <span>Design</span>
+                    <h1>Membuat Produk Design</h1>
+                    <p>Design produk skincare dengan
+                        menggunakan Photoshop</p>
+                        <div class="project-day">
+                            <div class="project-day-circle">
+                            </div>
+                            <p>11-04-2023</p>
+                        </div>
+                        <button>Profile</button>
+                        <a href="https://wa.me/+6288213010768"><button class="project-hireme-button">Hire Me</button></a>
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-deskripsi">
+                    <span>Design</span>
+                    <h1>Produk Design</h1>
+                    <p>Membuat produk Design Branded Bag untuk kebutuhan instagram dan online store</p>
+                        <div class="project-day">
+                            <div class="project-day-circle">
+                            </div>
+                            <p>07-03-2023</p>
+                        </div>
+                        <button>Profile</button>
+                        <a href="https://wa.me/+6288213010768"><button class="project-hireme-button">Hire Me</button></a>
+                </div>
+                <div class="gambar-pj">
+                    <img src="Gambar/branded-bag.jpg" alt="">
+                </div>
+            </div>
+            <div class="project">
+                <div class="gambar-pj-bus">
+                    <img src="Gambar/bus.jpg" alt="">
+                    <img src="Gambar/cleaning-service.jpg" alt="">
+                </div>
+                <div class="project-deskripsi1">
+                    <span>Website</span>
+                    <h1>Membuat Fullstack Website</h1>
+                    <p>Membuat website untuk PO.Anisatranspurnama dan PT.Jasapropertyservice</p>
+                        <div class="project-day">
+                            <div class="project-day-circle">
+                            </div>
+                            <p>26-01-2023</p>
+                        </div>
+                        <button>Profile</button>
+                        <a href="https://wa.me/+6288213010768"><button class="project-hireme-button">Hire Me</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.gambar-pj-bus').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000, // Ubah sesuai kebutuhan
+            });
+        });
+    </script>
 
 
 
